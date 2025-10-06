@@ -2,7 +2,7 @@
 
 Creating a CICD pipeline using github actions and secret key from Dockerhub registry.
 
-## Installation
+## Installation (Linux based bash / configure it if using Windows)
 
 Clone the repository into your local machine
 
@@ -15,12 +15,12 @@ Git clone https://github.com/sam-kash/CI-CD-beginner.git
 Run the command
 
 ```bash
-$ ls -a
+ls -a
 ```
 
 now from there
 ```
-$ rm .git
+rm .git
 ```
 
 Now push the repo into your github and add your docker key form dockerHub
